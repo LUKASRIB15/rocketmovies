@@ -3,6 +3,8 @@ import styled from "styled-components";
 export const InputLayout = styled.div`
   display: flex;
   width: 100%;
+  max-width: 630px;
+  min-width: 280px;
   background-color: ${props=>props.theme.colors['gray-800']};
   padding: 2rem 1.6rem;
   border-radius: 10px;
