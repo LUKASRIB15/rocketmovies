@@ -4,8 +4,8 @@ export const ButtonLayout = styled.button`
   width: 100%;
   max-width: 630px;
   padding: 1.6rem 3.2rem;
-  background-color: ${props=>props.theme.colors.red};
-  color: ${props=>props.theme.colors['gray-700']};
+  background-color: ${props=>props.$variant ? props.theme.colors.black : props.theme.colors.red};
+  color: ${props=>props.$variant ? props.theme.colors.red: props.theme.colors['gray-700']};
   font-weight: 500;
   border: 0;
   border-radius: 10px;

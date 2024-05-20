@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { ButtonLayout } from "./styles";
 
-export function Button({title, icon:Icon,...rest}){
+export function Button({title, icon:Icon, dark=false,...rest}){
   const [screenWidth, setScreenWidth] = useState(window.innerWidth)
 
   useEffect(()=>{
@@ -17,9 +17,9 @@ export function Button({title, icon:Icon,...rest}){
   }, [])
 
   return (
-    <ButtonLayout {...rest}>
+    <ButtonLayout $variant={dark} {...rest}>
       {Icon && <Icon size={16}/>}
-      <span className={screenWidth <=425 ? 'sr-only' : ''}>{title}</span>
+      <span className={screenWidth <=425 && Icon ? 'sr-only' : ''}>{title}</span>
     </ButtonLayout>
   )
 }

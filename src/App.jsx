@@ -6,12 +6,13 @@ import { SignIn } from "./pages/SignIn";
 import { MoviePreview } from "./pages/MoviePreview";
 import { Home } from "./pages/Home";
 import { Profile } from "./pages/Profile";
+import { NewMovie } from "./pages/NewMovie";
 
 export function App() {
   return (
     <ThemeProvider theme={defaultTheme}>
       <GlobalStyles />
-      <Profile/>
+      <NewMovie/>
     </ThemeProvider>
   )
 
