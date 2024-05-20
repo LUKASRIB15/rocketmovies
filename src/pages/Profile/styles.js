@@ -5,7 +5,7 @@ export const ProfileLayout = styled.div`
 
   & > header{
     background-color: ${props=>props.theme.colors.pink};
-    padding: 6.4rem 14.4rem;
+    padding: 6.4rem 2rem;
 
     div{
       display: flex;
@@ -16,6 +16,11 @@ export const ProfileLayout = styled.div`
         color: ${props=>props.theme.colors.red};
       }
     }
+
+    @media(min-width: 637px){
+      padding: 6.4rem 14.4rem;
+    } 
+
   }
 
 
@@ -55,6 +60,7 @@ export const ProfileForm = styled.form`
   flex-direction: column;
   align-items: center;
   gap: 0.8rem;
+  padding: 0 1.6rem;
 
   img{
     width: 186px;

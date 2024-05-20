@@ -3,6 +3,7 @@ import { Header } from "../../components/Header";
 import { MoviePreviewLayout, MoviePreviewMain, WrapperInRow } from "./styles";
 import { Stars } from "../../components/Stars";
 import { Tag } from "../../components/Tag";
+import { Link } from "react-router-dom";
 
 export function MoviePreview(){
   return (
@@ -12,7 +13,7 @@ export function MoviePreview(){
         <div>
           <WrapperInRow gap={0.8}>
             <FiArrowLeft size={16}/>
-            <a href="#">Criar conta</a>
+            <Link to="/">Voltar</Link>
           </WrapperInRow>
           <WrapperInRow gap={2}>
             <h1>Interestellar</h1>

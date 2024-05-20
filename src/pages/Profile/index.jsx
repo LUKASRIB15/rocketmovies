@@ -2,6 +2,7 @@ import { FiArrowLeft, FiCamera, FiLock, FiMail, FiUser } from "react-icons/fi";
 import { PickAvatar, ProfileForm, ProfileLayout } from "./styles";
 import { Input } from "../../components/Input";
 import { Button } from "../../components/Button";
+import { Link } from "react-router-dom";
 
 export function Profile(){
   return (
@@ -9,7 +10,7 @@ export function Profile(){
       <header>
         <div>
           <FiArrowLeft size={16}/>
-          <a href="#">Voltar</a>
+          <Link to="/">Voltar</Link>
         </div>
       </header>
       <ProfileForm>

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Input } from "../Input";
 import { HeaderLayout, Profile } from "./styles";
 
@@ -15,10 +16,12 @@ export function Header(){
           <h3>Lucas Ribeiro</h3>
           <button>sair</button>
         </div>
-        <img 
-          src="https://github.com/LUKASRIB15.png"
-          alt="Imagem de perfil do usuário"
-        />
+        <Link to="/profile">
+          <img 
+            src="https://github.com/LUKASRIB15.png"
+            alt="Imagem de perfil do usuário"
+          />
+        </Link>
       </Profile>
     </HeaderLayout>
   )
