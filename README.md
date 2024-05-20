@@ -1,8 +1,29 @@
-# React + Vite
+# RocketMovies
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This application is intended for people to be able to use the application and interact with other people about films. People can create a review about a film and see other people's reviews. This application is responsive and accessible.
 
-Currently, two official plugins are available:
+## Technologies 👨‍💻
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- HTML
+- CSS
+- JavaScript
+- React
+- Styled Components
+- React Router Dom
+- Git e Github
+- Figma
+
+# Main Screens
+
+### Home Screen
+
+![alt text](/public/homeScreen.png)
+
+### MoviePreview Screen
+
+![alt text](/public/moviePreviewScreen.png)
+
+# Certificate
+<div align="center">
+  <img src="./public/certificate-frontend.png">
+</div>
