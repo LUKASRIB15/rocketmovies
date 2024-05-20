@@ -18,13 +18,13 @@ export function Profile(){
             src="https://github.com/LUKASRIB15.png"
             alt="Imagem de perfil do usuário Lucas Ribeiro"
           />
-            <label htmlFor="avatar">
-              <PickAvatar>
-                <span className="sr-only">Escolher arquivo</span>
-                <FiCamera size={20}/>
-              </PickAvatar>
-            </label>
-            <input type="file" id="avatar"/>
+          <label htmlFor="avatar">
+            <PickAvatar>
+              <span className="sr-only">Escolher arquivo</span>
+              <FiCamera size={20}/>
+            </PickAvatar>
+          </label>
+          <input type="file" id="avatar"/>
         </div>
         <Input 
           label={"Nome"} 
