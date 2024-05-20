@@ -5,6 +5,7 @@ import { NewMovieLayout, NewMovieMain } from "./styles"
 import { Textarea } from "../../components/Textarea"
 import { Markers } from "../../components/Markers"
 import { Button } from "../../components/Button"
+import { Link } from "react-router-dom"
 
 export function NewMovie(){
   return(
@@ -13,7 +14,7 @@ export function NewMovie(){
       <NewMovieMain>
         <div>
           <FiArrowLeft size={16}/>
-          <a href="#">Voltar</a>
+          <Link to="/">Voltar</Link>
         </div>
         <h1>Novo filme</h1>
         <Input 
