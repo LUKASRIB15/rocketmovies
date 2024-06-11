@@ -38,4 +38,8 @@ export const Input = styled.input`
   &::placeholder{
     color: ${props=>props.theme.colors['gray-300']};
   }
+
+  &:disabled{
+    opacity: 0.5;
+  }
 `

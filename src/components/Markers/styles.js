@@ -17,7 +17,12 @@ export const MarkersLayout = styled.div`
     width: max-content;
   }
 
-  & > svg{
+  & > button{
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
     color: ${props=>props.theme.colors.red};
   }
+
 `

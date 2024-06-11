@@ -7,6 +7,7 @@ export const MovieNoteLayout = styled.button`
   border: 0;
   color: ${props=>props.theme.colors['gray-50']};
   text-align: left;
+  width: 100%;
 
   display: flex;
   flex-direction: column;

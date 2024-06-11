@@ -43,6 +43,7 @@ export const HomeMain = styled.main`
   flex-direction: column;
   gap: 2.4rem;
   overflow-y: auto;
+  width: 100%;
   max-width: 1137px;
   margin: 0 auto;
   padding-inline: 2.4rem;
